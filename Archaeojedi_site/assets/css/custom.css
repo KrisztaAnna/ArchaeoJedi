@@ -1,0 +1,436 @@
+/*******************************************
+LANDING
+********************************************/
+
+body.landing #page-wrapper {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 0;
+}
+
+body.is-mobile.landing #banner, body.is-mobile.landing .wrapper.style4 {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cta_banner/banner.jpg");
+	background-attachment: fixed;
+	/*background-position: center center;*/
+	/*background-repeat: no-repeat;*/
+	background-size: 100%;
+	/*padding-top: 0;*/
+}
+
+
+/*******************************************
+HEADER
+********************************************/
+
+#header {
+    -moz-transition: background-color 0.2s ease;
+    -webkit-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    background: #2e3842;
+    height: 3em;
+    left: 0;
+    line-height: 3em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+#header h1,
+#header h4 {
+    -moz-transition: opacity 0.2s ease;
+    -webkit-transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+    height: inherit;
+    left: 1.25em;
+    line-height: inherit;
+    position: absolute;
+    top: 0;
+}
+
+#header h1 a,
+#header h4 a{
+    border: 0;
+    display: block;
+    height: inherit;
+    line-height: inherit;
+}
+
+@media screen and (max-width: 736px) {
+
+    #header h1 a,
+    #header h4 a {
+        margin-top: 0.3em;
+        font-size: 0.8em;
+
+    }
+
+}
+
+
+
+#logo,
+#landing-logo {
+	height: 3em;
+}
+
+#landing-logo {
+    /*position: relative;*/
+    display: inline-block;
+    float: left;
+
+}
+
+/*******************************************
+ABOUT US
+********************************************/
+
+.hello {
+	padding-top: 3em;
+}
+
+.primary {
+	display: inline-block;
+	width: 45%;
+	float: left;
+	text-align: center;
+	height: 90%;
+
+}
+
+.secondary {
+	display: inline-block;
+	width: 45%;
+	float: right;
+	text-align: center;
+	height: 90%;
+}
+
+.icons {
+	clear: both;
+
+}
+
+.left {
+	margin-top: 2em;
+}
+
+.right {
+	margin-top: 2.5em;
+}
+
+/*******************************************
+SERVICES, OUR PARTNERS
+********************************************/
+#cta header #services-title {
+   padding-right: 0;
+   width: 100%;
+   text-align: center;
+   font-size: 1.8em;
+}
+
+.features li {
+   width: 30%;
+}
+
+.features li img {
+	width: 100%;
+	padding: 0.1em;
+}
+
+
+
+/*******************************************
+TEAM
+********************************************/
+#team-members .features li {
+	width: 45%;
+	margin: .2em;
+}
+
+.team-pic {
+	border-radius: 100%;
+}
+
+
+
+
+/*******************************************
+REFERENCES
+********************************************/
+#main header {
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/projekt23.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/projekt23.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/projekt23.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/projekt23.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#excav-map {
+	width: 100%;
+	height: 35em;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+#excav-map h3 {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+
+/*******************************************
+CONTACTS
+********************************************/
+.contact-content {
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/banner12.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/banner12.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/banner12.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/cta_banner/banner12.jpg");
+	padding: 13em 0em 25em 0em;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*background-color: #ff5c33;*/
+
+}
+
+.alt {
+	color: #F1F1F1;
+}
+
+ul.alt li {
+	border-top: solid 1px #E5E5E5;
+	padding: 0.8em 0;
+}
+
+.contact-left,
+.contact-right {
+	display: inline-block;
+	width: 45%;
+}
+.contact-left {
+	margin-top: 6%;
+	float: left;
+	padding-right: 2%;
+	padding-left: 5%;
+}
+.contact-right {
+	padding-left: 5%;
+}
+
+.contact-left h4 {
+	color: #F1F1F1;
+	padding-bottom: .9em;
+	height: 100%;
+	width: 100%;
+}
+
+/*iframe {*/
+	/*width: 34em;*/
+	/*height: 22em;*/
+/*}*/
+
+
+/*******************************************
+FOOTER
+********************************************/
+/*#my-footer {*/
+	/*background-image: url("../../images/cta_banner/cta3.jpg");*/
+/*}*/
+
+
+#contact-logo{
+	height: 100%;
+	width: 100%;
+}
+
+.my-footer{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+
+/*******************************************
+COLORS
+********************************************/
+#one,
+#three {
+   /*background-color: #ff704d;*/
+   background-color: #ff5c33;
+}
+
+#our-team .wrapper{
+	/*background-color: #2E3842;*/
+	background-color: #252D35;
+
+
+}
+
+
+#banner .inner .actions .button {
+   background-color: #ff5c33;
+}
+#our-team #one{
+	background: rgba(0, 0, 0, 0.06);
+}
+
+.wrapper.style5 {
+	background-color: rgba(255, 255, 255, 0.045);
+	color: #DAD8DB;
+}
+
+.style5 #form-section .actions .special {
+   background-color: #ff5c33;
+}
+
+.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
+	/*color: #2E3842;*/
+	color: #252D35;
+}
+
+.wrapper.style5 .old-works {
+	color: #14191e;
+ }
+
+.maps-title {
+	color: #566370;
+}
+
+.wrapper.style5 input[type="text"],
+.wrapper.style5 input[type="password"],
+.wrapper.style5 input[type="email"],
+.wrapper.style5 select,
+.wrapper.style5 textarea {
+	/*background: rgba(0, 0, 0, 0.0375);*/
+	background: rgba(0, 0, 0, 0.06);
+}
+
+.wrapper.style5 input[type="checkbox"] + label,
+.wrapper.style5 input[type="radio"] + label {
+	/*color: #4E4852;*/
+	color: #A5A0A8;
+}
+
+	.wrapper.style5 input[type="checkbox"] + label:before,
+	.wrapper.style5 input[type="radio"] + label:before {
+		background: rgba(0, 0, 0, 0.055);
+	}
+
+.wrapper.style5 ::-webkit-input-placeholder {
+	/*color: #8E8892 !important;*/
+	color: #C5C2C7 !important;
+}
+
+.wrapper.style5 :-moz-placeholder {
+	/*color: #8E8892 !important;*/
+	color: #C5C2C7 !important;
+}
+
+.wrapper.style5 ::-moz-placeholder {
+	/*color: #8E8892 !important;*/
+	color: #C5C2C7 !important;
+}
+
+.wrapper.style5 :-ms-input-placeholder {
+	/*color: #8E8892 !important;*/
+	color: #C5C2C7 !important;
+}
+
+.wrapper.style5 .formerize-placeholder {
+	/*color: #8E8892 !important;*/
+	color: #C5C2C7 !important;
+}
+.wrapper.style5 input[type="submit"],
+			.wrapper.style5 input[type="reset"],
+			.wrapper.style5 input[type="button"],
+			.wrapper.style5 button,
+			.wrapper.style5 .button {
+				box-shadow: inset 0 0 0 2px #dfdfdf;
+				/*color: #2E3842;*/
+				color: #1E242A;
+			}
+
+
+/*******************************************
+MEDIA QUERIES
+********************************************/
+
+@media screen and (max-width: 980px) {
+	.contact-content {
+		width: 100%;
+		padding: 1em;
+	}
+
+	.contact-right {
+		width: 100%;
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.contact-left {
+		margin: 0 auto;
+		width: 100%;
+		/*padding: 0;*/
+		padding-bottom: 5em;
+		padding-top: 5em;
+	}
+
+	.contact-list {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+}
+
+
+@media screen and (max-width: 736px) {
+	#cta header #services-title {
+		line-height: 1em;
+		font-size: 1.1em;
+	}
+
+	#banner {
+		padding: 5em 3em 5em 3em;
+	}
+
+
+	.features li {
+		border: none;
+		width: 100%;
+	}
+
+	.features li img {
+	width: 50%;
+	padding: 0.1em;
+	}
+
+	.primary,
+	.secondary{
+		width: 100%;
+	}
+
+	.contact-list {
+		width: 100%;
+	}
+
+}
+
