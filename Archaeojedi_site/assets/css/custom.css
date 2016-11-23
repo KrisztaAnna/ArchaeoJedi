@@ -1,4 +1,13 @@
 /*******************************************
+GENEREAL
+********************************************/
+a {
+	border-bottom: none;
+}
+
+
+
+/*******************************************
 LANDING
 ********************************************/
 
@@ -78,19 +87,50 @@ HEADER
 
 }
 
-
-
-#logo,
-#landing-logo {
+.logo {
 	height: 3em;
 }
 
 #landing-logo {
-    /*position: relative;*/
-    display: inline-block;
-    float: left;
-
+	height: 3em;
+	/*height: 4.5em;*/
 }
+
+#title {
+	/*height: 2em;*/
+	/*margin-bottom: 0.3em;*/
+	/*display: block;*/
+	font-size: 1.5em;
+}
+
+#hand {
+	height: 4em;
+}
+
+
+#banner h2:before {
+	-moz-transition: width 0.85s ease;
+	-webkit-transition: width 0.85s ease;
+	-ms-transition: width 0.85s ease;
+	transition: width 0.85s ease;
+	-moz-transition-delay: 0.25s;
+	-webkit-transition-delay: 0.25s;
+	-ms-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+	background: #fff;
+	content: '';
+	display: block;
+	/*height: 1px;*/
+	height: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+#bannerhand {
+	height: 3em;
+}
+
+
 
 /*******************************************
 ABOUT US
@@ -122,22 +162,34 @@ ABOUT US
 
 }
 
-.left {
-	margin-top: 2em;
+.top {
+    margin-top: 2em;
 }
 
-.right {
-	margin-top: 2.5em;
+.bottom {
+    margin-top: 2.5em;
 }
+
+
 
 /*******************************************
 SERVICES, OUR PARTNERS
 ********************************************/
-#cta header #services-title {
+#cta header #services-title,
+#cta header .services-motto{
    padding-right: 0;
    width: 100%;
    text-align: center;
-   font-size: 1.8em;
+
+}
+
+#cta header #services-title{
+	font-size: 1.35em;
+	line-height: 1.75em;
+}
+#cta header .services-motto{
+	font-size: 2em;
+	color: rgba(250,250,250,0.6);
 }
 
 .features li {
@@ -161,6 +213,14 @@ TEAM
 
 .team-pic {
 	border-radius: 100%;
+}
+
+.left {
+    margin-top: 2em;
+}
+
+.right {
+    margin-top: 2em;
 }
 
 
@@ -242,29 +302,15 @@ ul.alt li {
 	width: 100%;
 }
 
-/*iframe {*/
-	/*width: 34em;*/
-	/*height: 22em;*/
-/*}*/
+iframe {
+	width: 34em;
+	height: 22em;
+}
 
 
 /*******************************************
 FOOTER
 ********************************************/
-/*#my-footer {*/
-	/*background-image: url("../../images/cta_banner/cta3.jpg");*/
-/*}*/
-
-
-#contact-logo{
-	height: 100%;
-	width: 100%;
-}
-
-.my-footer{
-	padding-top: 0;
-	padding-bottom: 0;
-}
 
 
 /*******************************************
@@ -279,8 +325,6 @@ COLORS
 #our-team .wrapper{
 	/*background-color: #2E3842;*/
 	background-color: #252D35;
-
-
 }
 
 
@@ -403,7 +447,15 @@ MEDIA QUERIES
 
 
 @media screen and (max-width: 736px) {
+	#landing-logo {
+		height: 1.5em;
+	}
 	#cta header #services-title {
+		line-height: 1em;
+		font-size: 1em;
+	}
+
+	#cta header .services-motto{
 		line-height: 1em;
 		font-size: 1.1em;
 	}
